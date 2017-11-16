@@ -5,7 +5,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased][Unreleased]
 
+Deprecated:
 
+* Sending files: *(See https://github.com/yagop/node-telegram-bot-api/blob/master/doc/usage.md#sending-files-options)*
+  * Error will **not** be thrown if `Buffer` is used and file-type could **not** be detected.
+  * Filename will **not** be set to `data.${ext}` if `Buffer` is used
+  * Content type will **not** default to `null` or `undefined`
 
 
 * * *

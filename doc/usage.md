@@ -127,7 +127,7 @@ const fileOpts = {
 bot.sendAudio(chatId, data, {}, fileOpts);
 ```
 
-<a name="sending-files-metadata"></a>
+<a name="sending-files-options"></a>
 ### File Options (metadata)
 
 When sending files, the library automatically resolves
